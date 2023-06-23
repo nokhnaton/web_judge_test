@@ -9,12 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@bjorn3/browser_wasi_shim": "^0.2.14",
+    "@types/xterm": "^3.0.0",
     "cjs-module": "^1.5.0",
     "create-vite": "^4.0.0",
     "sass": "^1.56.2",
     "scss": "^0.2.4",
     "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "xterm": "^5.2.1",
+    "xterm-addon-fit": "^0.7.0",
+    "xterm-pty": "^0.9.5"
   },
   "devDependencies": {
     "@openapitools/openapi-generator-cli": "^2.5.2",
